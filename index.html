@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trello</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="menu">
+			<div id="elements-left">
+				<button type="button" class="btn-tablero">Tableros</button>
+				<input type="search">
+			</div>
+			<div id="elements-center">
+				<img class="logo" src="https://www.seeklogo.net/wp-content/uploads/2017/01/trello-logo.png" width="50px" height="50px">
+			</div>
+			<div id="elements-right">
+				<a class="icons" href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+				<a class="icons" href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+				<a class="icons" href="#">A</a>
+		   </div>
+		</nav>
+	</header>
+
+	<section id="tablero">
+		<div class="tablero-content">
+			<a href="#">Tablero sin titulo</a>
+			<a href="#">Vida privada</a>
+			<a href="#">Privados</a>
+		</div>
+		<div class="tarjeta">
+		  <p id="messages"></p>
+	        <form action="/action_page.php" method="get">
+				<input type="text" id="message-input"/>
+			<div class="btn-tarjeta">
+				<input type="button" id="submit-message" value="Añadir"/> 
+				<button type="reset" value="Reset">X</button>
+			</div>
+		</form>
+		</div>
+	</section>
+   
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
