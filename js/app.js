@@ -23,7 +23,7 @@ function addText() {
 function printText() {
 	var messages = "";
 	for (var i = 0; i < messageArray.length; i++) {
-		messages += messageArray[i] + "<br>";
+		messages += messageArray[i] + "<hr>";
 	}
 
 	document.getElementById("messages").innerHTML = messages;
@@ -40,5 +40,8 @@ function clearText(){
 	document.getElementById("message-input").value = "";
 
 } 
+
+
+
 
 

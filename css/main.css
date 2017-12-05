@@ -36,12 +36,11 @@ input[type="search"] {
     background-color: #4797B8; 
     color: white;
     padding: 6px 15px;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     outline: none;
+    border-style: none;
+    border-radius: 4px;
 }
 
 
@@ -58,7 +57,7 @@ input[type="search"] {
 
 
 #menu-right {
-    margin-left: 400px;
+    margin-left: 350px;
     padding-top: 17px;
 }
 
@@ -81,6 +80,7 @@ input[type="search"] {
     cursor: pointer;
 }
 
+
 .delete {
     border: none;
     background-color: #4797B8;
@@ -97,7 +97,7 @@ input[type="search"] {
     border-radius: 4px;
     background-color: #4797B8;
     color: white;
-    padding: 8px 14px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -105,6 +105,16 @@ input[type="search"] {
     cursor: pointer;
 }
 
+.icon-user {
+    border-radius: 90%;
+    background-color: #CDD2D4;
+    color: gray;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
 
 .tarjeta {
     background-color: #E2E4E6;
