@@ -24,8 +24,16 @@ input[type="button"] {
     cursor: pointer;
 }
 
+input[type="text"] {
+    height: 30px;
+    width: 190px;
+    font-size: 16px;
+    margin: 13px 7px;
+    outline: none;
+}
+
 input[type="search"] {
-    background-color: #4797B8; /* Green */
+    background-color: #4797B8; 
     color: white;
     padding: 6px 15px;
     text-decoration: none;
@@ -84,6 +92,7 @@ input[type="search"] {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .icons {
     border-radius: 4px;
     background-color: #4797B8;
@@ -99,14 +108,17 @@ input[type="search"] {
 
 .tarjeta {
     background-color: #E2E4E6;
-    width: 200px;
+    width: 210px;
     border-radius: 4px;
 }
 
 .tablero-content {
+    color: white;
     font-size: 20px;
     margin-top: 10px;
-    font-weight: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
  
 }
 
@@ -115,7 +127,10 @@ input[type="search"] {
     margin-top: 10px;
 }
 
+#messages {
+    margin-left: 15px;
 
+}
 
 
 
